@@ -31,7 +31,7 @@ export default function Layout({ children }: LayoutProps) {
       <Navbar />
       <Container>{children}</Container>
       <Footer>
-        <p>&copy; 2023 Car Booking</p>
+        <p>&copy; 2024 Sayarent</p>
       </Footer>
     </>
   );

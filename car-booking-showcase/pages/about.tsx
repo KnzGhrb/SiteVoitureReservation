@@ -28,10 +28,6 @@ export default function About() {
       <Container>
         <h2>About Us</h2>
         <Address>
-          <p>Sayarent Car Rentals</p>
-          <p>1234 Elm Street</p>
-          <p>City, State, ZIP Code</p>
-          <p>Country</p>
         </Address>
         <Map>
           <iframe
@@ -39,7 +35,7 @@ export default function About() {
             width="100%"
             height="100%"
             style={{ border: 0 }}
-            allowFullScreen=""
+            allowFullScreen={true}
             loading="lazy"
           ></iframe>
         </Map>
